@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= name %></title>
+</head>
+<body>
+    <h1>Voici les informations du joueur :</h1>
+    <img src= "<%= pictureURL %>">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">
+                    <%= name %>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Nationality
+                </td>
+                <td>
+                    <%= nationality %>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Club
+                </td>
+                <td>
+                    <%= club %>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Overall Rating
+                </td>
+                <td>
+                    <%= overallRating %>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Age
+                </td>
+                <td>
+                    <%= age %>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
